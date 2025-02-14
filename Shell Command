@@ -1,0 +1,35 @@
+A shell command is a text-based instruction used to interact with the operating system via a command-line interface (CLI), also known as the shell. The shell interprets these commands and executes them. It can be found in Unix-like systems (like Linux and macOS), Windows (through PowerShell or Command Prompt), and other operating systems.
+
+Here are some key aspects of shell commands:
+
+1. Basic Structure
+A typical shell command consists of:
+
+Command: The action to perform (e.g., ls, mkdir, echo).
+Options/Flags: Modify the behavior of the command (e.g., -l for listing details in ls).
+Arguments: The targets of the command, such as files or directories (e.g., file.txt).
+2. Common Shell Commands
+ls: Lists files and directories in the current directory.
+cd: Changes the current directory.
+mkdir: Creates a new directory.
+touch: Creates a new, empty file.
+rm: Removes files or directories.
+echo: Displays a line of text in the terminal.
+cp: Copies files or directories.
+mv: Moves or renames files or directories.
+cat: Displays the content of a file.
+man: Opens the manual or help documentation for a command.
+3. Pipes and Redirection
+| (Pipe): Passes the output of one command as the input to another command.
+Example: ls | grep "txt" (lists files and filters those with "txt" in the name).
+> (Redirection): Redirects output to a file, overwriting it.
+Example: echo "Hello World" > file.txt (writes "Hello World" into file.txt).
+>> (Append Redirection): Appends output to a file.
+Example: echo "More Text" >> file.txt (adds more text to the existing file).
+4. Running Commands as Administrator (Root)
+In many Unix-like systems, some commands require higher permissions:
+
+sudo: Runs a command with superuser (root) privileges.
+Example: sudo apt-get update (updates system packages with admin privileges).
+5. Scripting with Shell Commands
+Shell commands are often written in shell scripts—a sequence of commands stored in a file with a .sh extension. These scripts are executed by the shell, automating repetitive tasks.
